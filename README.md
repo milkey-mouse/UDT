@@ -13,5 +13,7 @@ alice.py is the sender, bob.py is the receiver, and caroline.py echoes anything 
 
 BUT... it works, on every computer I've tested it on. Surprisingly, even Bluetooth can handle the ultrasonic frequencies necessary.
 
+Run with Python 2.7. (I had not yet moved to the light side as of writing this.)
+
 #License
 This program is under the MIT License. For the text of the license, see the LICENSE file in the root of the repository.
