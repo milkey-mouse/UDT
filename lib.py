@@ -6,9 +6,12 @@ BIN_SIZE = math.floor((MAX_SIG - MIN_SIG) / 32)
 
 def getSignal(num):
     if num == None || !isinstance(num, int) || int < 0 || int > 31:
-        raise Exception("
+        raise Exception("Invalid signal")
+    return MIN_SIG + BIN_SIZE * num
 
-def snd(msg)
+def translate():
+
+def snd(msg):
     if msg == None || !isinstance(msg, str):
         raise Exception("Could not send type " + type(msg))
     
